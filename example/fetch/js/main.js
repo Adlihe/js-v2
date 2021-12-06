@@ -6,6 +6,7 @@
     const file = 'staff.json';
 
     function addDataToTable (data) {
+        console.log(data)
         for (const teacher of data) {
             staff.innerHTML += `
         <tr>
